@@ -1,0 +1,124 @@
+@media only screen and (max-width : 1200px) {
+  .body-layout, body {
+    min-width: 0;
+  }
+  /*.m-top {
+    display: none;
+  }*/
+  .m-top-i {
+    display: none;
+  }
+  .m-top-i:nth-child(5) {
+    display: inline-block;;
+  }
+  .header-phones-i:nth-child(n+2) {
+    display: none;
+  }
+  .header-city-select {
+    display: none;
+  }
+  .rz-header-search-category {
+    display: none;
+  }
+  .rz-header-search-input-text-wrap {
+    margin-right: 0 !important;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .body-header .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    cursor: pointer;
+    padding-left: 20px;
+    position: relative;
+  }
+  .logo:before, .logo:after {
+    content: '';
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40px;
+    position: absolute;
+    left: 0;
+  }
+  .logo:before {
+    height: 35px;
+    border-top: 2px solid #156DAC;
+    border-bottom: 2px solid #156DAC;
+    top: 15px;
+  }
+  .logo:after {
+    height: 2px;
+    background-color: #156DAC;
+    top: 31px;
+  }
+  /*
+    Dynamic class - adding/removeng by js for open/close menu
+  */
+  .body-header_is-open .body-header-row-top {
+    display: block;
+  }
+  .body-header_is-open .rz-header-search-wrap {
+    display: block;
+  }
+
+  .body-header-row-top {
+    display: none;
+  }
+
+  .header-user-buttons {
+    float: none;
+    position: absolute;
+    right: 0;
+  }
+  .rz-header-search-wrap {
+    float: left;
+    width: 100%;
+    display: none;
+  }
+  .hub-i-comparison {
+    display: none;
+  }
+  .hub-i-link {
+    padding: 40px 20px 0.36364em;
+  }
+  .hub-i-wishlist .underline-hover {
+    display: none;
+  }
+  .hub-i:before {
+    display: none;
+  }
+  .hub-i-wishlist-link:before, .hub-i-wishlist-link-count:before {
+    width: 30px;
+    height: 25px;
+  }
+  .hub-i-cart-link {
+    margin-left: 15px;
+  }
+  .hub-i-cart-link:before {
+    background-position: 0 -6016px;
+    width: 40px;
+    height: 35px;
+  }
+  .hub-i-cart-link .xhr {
+    display: none;
+  }
+  .header-user {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .header-user #user_menu {
+    text-align: left;;
+  }
+  .body-header-row-top .flex {
+    width: 100%;
+  }
+
+}
